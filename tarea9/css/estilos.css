@@ -1,0 +1,41 @@
+#encabezado{
+    color: white;
+    background-color: black;
+}
+.fondo--imagen1{
+    /*Background-Image: Permite agregar imagenes como fondo de un contenedor o elemento HTML, 
+    tambien se puede agregar gradientes*/
+    background-image: radial-gradient(ellipse, rgba(255, 0, 255, 0.14), rgba(255, 85, 69, 0.124)), url(../imagenes/imagen1.jpeg);
+    /*Background size (cover, contain y width(px)-height(px)): Especificar el tamaño de la imagen de fondo*/
+    background-size: contain; /*Contain: Rellena sin espacios en blanco y 
+    cover hace lo mismo pero solo con mi imagen(no la duplica)*/
+
+    /*Background repeat(repeat, repeat x, repeat y y no repeat): Aplica cuando la imagen es mas pequeña que su contenedor*/
+    background-repeat: no-repeat;
+
+    /*Background position (top, bottom, left, right y center):width:
+    Establece la posicion inicial de la imagen en su contenedor;*/
+    background-position: auto;
+    /*Background-attachment(Scroll y fixed):
+    Se utiliza para que la imagen se quede fija en su contenedor cuando un usuario se mueve;*/
+    background-attachment: fixed;
+    
+    /*Propiedades del contenedor principal:*/
+    height: 1000px;
+    width: 500px;
+    color: black;
+    border: 2px solid black;
+    
+}
+
+.fondo--imagen2{
+    /*Short Hand: Propiedades agregadas*/
+    /*Background: (image) (position)/(size)(repeat)(attachment)(color)*/
+    background: url(../imagenes/imagen2.jpeg) center/ contain no-repeat scroll red;
+
+    height: 500px;
+    width: 500px;
+    color: black;
+    border: 2px solid rgb(0, 255, 217);
+
+}
