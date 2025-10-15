@@ -1,0 +1,49 @@
+#encabezado{
+    color: black;
+    background-color: grey;
+    height: 80px;
+    /*El relleno es el espacio entre el contenido de un elemento y su borde*/
+    /*Se aplican las propiedades en sentido horario: top, right, bottom y left*/
+    padding: 10px 20px 50px;
+    margin: 50px;
+    /*Es el espacio entre el borde de un elemento con otro elemento*/
+    /*El borde es el contorno visual al rededor de nuestro relleno y de contenido
+    de un elemento
+    Valores posibles para border style:
+    (solid,dotted, dashed, double, groove, ridge, inset, outset, hidden y none);*/
+    border: 10px ridge blue;
+    border-top-style: solid ;
+    border-radius: 30%;
+    /*Se puede utilizar para crear objetos de zombra alrededor del borde de un
+    elemento, se deben especifiar los valores para el desplazamiento horizontal,
+    vertical, radio de desenfoque, radio de propagacion y color*/
+    box-shadow: -7px 7px 10px 7px rgba(0, 17, 255, 0.999);
+    box-sizing: content-box ;
+    /*Se utiliza para que rellenos, margenes y bordes no agreguen espacio extra a lo que
+    se declaro en lo ancho y alto de nuestro contenedor*/
+}
+.introduccion{
+    color: white;
+    background-color: steelblue;
+    padding: 10px;
+    margin: 10px;
+    height: 100px;
+    border: 5px groove red;
+    box-shadow: 5px 5px 10px 5px red; 
+    box-sizing: border-box;
+}
+.introduccion p{
+    border: 1px darkorange;
+    height: 100px;
+    width: 500px;
+    padding-top: 10px;
+    box-sizing: border-box;
+
+}
+.introduccion span{
+    border: 1px double blueviolet;
+    height: 50px;
+    width: 100px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
