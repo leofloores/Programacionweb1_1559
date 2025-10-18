@@ -1,0 +1,35 @@
+.RGB{
+color: red;
+background-color: black;
+}
+.RGBA{
+    color: aqua;
+    background-color: blue;
+}
+.HEX{
+    color: brown;
+    background-color: blueviolet;
+}
+.HSL{
+    color: bisque;
+    background-color: blanchedalmond;
+}
+.lista-de-colores{
+    color: antiquewhite;
+    background-color: black;
+}
+.black{
+    color: black;
+}
+.white{
+    color: white;
+}
+.salmon{
+    color: salmon;
+}
+.blue{
+    color: blue;
+}
+.lime{
+    color: lime;
+}
