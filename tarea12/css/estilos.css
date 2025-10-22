@@ -1,0 +1,66 @@
+html{
+    font-size: 62.5px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, black, grey);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#encabezado{
+    border: 0.2em solid white;
+    position: relative;
+
+}
+#encabezado h1{
+    position: absolute;
+    top: 0;
+    left:33.3%;
+}
+
+.contenedor--logo{
+    width: 15%;
+    height: 7em;
+    border: 0.2em dashed black;
+    border-radius: 50%;
+}
+
+.contenedor--logo img{
+    width: 100%;
+    height: 100%;
+    /*Min width: minimo ancho
+    min height: minimo alto
+    max height, min height*/
+    object-fit: contain;
+    /*Object position:(top, left, right)*/
+    border-radius: 50%;
+}
+.elementos--posicionados{
+    border: o.2em solid grey;
+    padding: 0.3em;
+}
+.contenedor--imagen{
+    width: 15em;
+    height: 15em 
+    border 0.1em dashed black;
+}
+
+.contenedor--imagen img{
+   width: 100%;
+   height: 100%;
+   object-fit: contain; 
+}
+
+.imagen--1{
+    position: relative;
+    top: 15em;
+    left: 15em;
+}
+.imagen--2{
+    position: absolute;
+}
