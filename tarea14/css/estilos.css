@@ -1,0 +1,44 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    border: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor--flotante{
+    padding: 0.5em;
+    border: 0.2em outset #b00;
+}
+
+.contenedor--flotante img{
+    width: 30%;
+    height: 20%;
+    float: inline-start;
+    margin-top: 6em;
+}
+
+.contenedor--flotante p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-size: 5em;
+}
+
+/*Consultas de medios o Medias Queries:
+Sirven para definir estilos a elementos HTML, según el tamaño de la pantalla del
+dispositivo usado, gracias a esto, se nos proporciona una herramienta para la 
+creación de diseños web responsivos y adaptables.*/
+
+@media screen and (max-width: 300px){
+        .contenedor--flotante p{
+            font-size: 2em;
+        }
+}
+
+@media screen and (max-width: 300px){
+        .contenedor--flotante p{
+            font-size: 3em;
+        }
+}
