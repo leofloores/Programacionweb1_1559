@@ -4,51 +4,102 @@ html{
 
 body{
     padding: 0;
-    margin: 0;
+    border: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.contenedor--flexible{
-    border: 0.2cm, solid red;
-    padding: 0.5cm;
+
+#encabezado{
     display: flex;
-    /*flex direction (row,colum,row reverse y colum reverse)*/
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+}
+
+#encabezado img{
+    width: 10em;
+    height: 10em;
+    margin: 0.5em;
+}
+
+
+#encabezado h1{
+    color: #fff;
+    font-size: 2.5em;
+}
+
+#encabezado ul{
+    border: 0.1em solid #f00;
+    list-style: none;
+    display: flex;
     flex-direction: row;
-    /*justify content(flex, start, flex end, center, space around, space betwen, space evenly)*/
+    padding: 0;
+}
+
+#encabezado ul li{
+    margin: 0.2em;
+}
+
+#encabezado ul li a{
+    color: #fff;
+}
+
+.contenedor--flexible{
+    border: 0.2em outset #a00;
+    padding: 0.5em;
+    display: flex;
+    height: 30em;
+    width: 30em;
+    /*flex-direction (row, collumn, row-reverse y column-reverse)*/
+    flex-direction: row;
+    /*justify-content (flex-start, flex-end, center, space-between, space around, space-evely) MAIN-AXIS (EJE-X)*/
     justify-content: space-evenly;
-    /*align-items (flex-start, flex-end),center,strech, baseline*/
+    /*align-items (flex-start, flex-end, center, strech, baseline)*/
     align-items: baseline;
     flex-wrap: wrap;
 }
 
 .contenedor--flexible div{
-    background-color: blue;
-    border: 0.1em solid black;
+    background-color: #000;
+    color: #fff;
+    border: 0.1em solid #0f0;
     height: 10em;
-    width: 20em;
+    width: 30em;
     margin: 0.5em;
-    flex-shrink: 0;
 }
 
-/*Propiedades felx, para objetos flexibles*/
 .objeto1{
-    /*flex-grow: 2;*/
+    order: 1;
+}
+
+.objeto2{
     
 }
-.objeto2{
-/*flex-shrink*/
-}
+
 .objeto3{
-    /*flex-grow: 1;*/
     order: -1;
 }
+
 .objeto4{
     order: -2;
 }
-.encabezado{
-    background-color: rgb(255, 0, 0);
-    text-align: center;
-    padding: 1cm;
-    font-size: 2.5rem;
-    font-weight: bold;
+
+@media screen and (max-width: 350px){
+    #encabezado ul{
+        border: 0.1em solid #f00;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        font-size: 0.8em;
+    }
+
+    #encabezado h1{
+        font-size: 1.5em;
+    }
+
+    #encabezado img{
+        width: 20%;
+        height: 20%;
+    }
 }
