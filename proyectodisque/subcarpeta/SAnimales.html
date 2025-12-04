@@ -1,24 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles2.css">
-    <title>Seccion de Animales</title>
+    <title>Sección de Animales - Sonrisa Salvaje</title>
 </head>
 <body>
     <header id="encabezado">
         <img src="css/sonrisalvajelogo.png" alt="logoZoo" >
         <h2>Sonrisa Salvaje</h2>
-        
-        <h1> Seccion de Animales</h1>
+        <h1>Nuestros Habitantes</h1>
         <nav>
             <ul>
-                <li><a href="../indexP.html">Volver a la Pagina Principal</a></li>
-                <li><a href="">Galería</a></li>
+                <li><a href="../indexP.html">Inicio</a></li>
+                <li><a href="SAnimales.html" style="color: rgb(173, 119, 53);">Animales</a></li>
+                <li><a href="Galeria.html">Galería</a></li>
                 <li><a href="">Promociones</a></li>
             </ul>
         </nav>
     </header>
+
+    <main class="contenedor-animales">
+        
+        <section id="mamiferos" class="seccion-categoria">
+            <h2 class="titulo-categoria">🦁 Mamíferos</h2>
+            <div class="grid-animales">
+                
+                <article class="ficha-animal">
+                    <div class="imagen-animal">
+                        <img src="css/leon.png" alt="León Africano">
+                    </div>
+                    <div class="info-animal">
+                        <h3>León Africano</h3>
+                        <p class="descripcion">El rey de la selva, conocido por su imponente melena y su rugido poderoso.</p>
+                        <ul class="datos-tecnicos">
+                            <li><strong>🏠 Hábitat:</strong> Sabanas y llanuras.</li>
+                            <li><strong>🥩 Alimentación:</strong> Carnívoro.</li>
+                            <li><strong>💡 Dato Curioso:</strong> Su rugido puede escucharse a 8 km de distancia.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="ficha-animal">
+                    <div class="imagen-animal">
+                        <img src="css/elefante.png" alt="Elefante">
+                    </div>
+                    <div class="info-animal">
+                        <h3>Elefante Africano</h3>
+                        <p class="descripcion">El mamífero terrestre más grande del mundo, famoso por su inteligencia y memoria.</p>
+                        <ul class="datos-tecnicos">
+                            <li><strong>🏠 Hábitat:</strong> Bosques y sabanas.</li>
+                            <li><strong>🌿 Alimentación:</strong> Herbívoro.</li>
+                            <li><strong>💡 Dato Curioso:</strong> Usan sus orejas para abanicarse y regular su temperatura.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="aves" class="seccion-categoria">
+            <h2 class="titulo-categoria">🦜 Aves</h2>
+            <div class="grid-animales">
+                
+                <article class="ficha-animal">
+                    <div class="imagen-animal">
+                        <img src="css/guacamaya.png" alt="Guacamaya">
+                    </div>
+                    <div class="info-animal">
+                        <h3>Guacamaya Roja</h3>
+                        <p class="descripcion">Ave colorida y social que ilumina los cielos tropicales.</p>
+                        <ul class="datos-tecnicos">
+                            <li><strong>🏠 Hábitat:</strong> Selvas tropicales.</li>
+                            <li><strong>🍎 Alimentación:</strong> Semillas y frutas.</li>
+                            <li><strong>💡 Dato Curioso:</strong> Son monógamas, eligen una pareja para toda la vida.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="reptiles" class="seccion-categoria">
+            <h2 class="titulo-categoria">🐊 Reptiles</h2>
+            <div class="grid-animales">
+                
+                <article class="ficha-animal">
+                    <div class="imagen-animal">
+                        <img src="css/cocodrilo.png" alt="Cocodrilo">
+                    </div>
+                    <div class="info-animal">
+                        <h3>Cocodrilo de Río</h3>
+                        <p class="descripcion">Un depredador prehistórico que domina las aguas dulces.</p>
+                        <ul class="datos-tecnicos">
+                            <li><strong>🏠 Hábitat:</strong> Ríos y pantanos.</li>
+                            <li><strong>🥩 Alimentación:</strong> Carnívoro oportunista.</li>
+                            <li><strong>💡 Dato Curioso:</strong> Pueden vivir hasta 70 años en libertad.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="acuaticos" class="seccion-categoria">
+            <h2 class="titulo-categoria">🐟 Acuáticos</h2>
+            <div class="grid-animales">
+                
+                <article class="ficha-animal">
+                    <div class="imagen-animal">
+                        <img src="css/ajolote.png" alt="Ajolote">
+                    </div>
+                    <div class="info-animal">
+                        <h3>Ajolote Mexicano</h3>
+                        <p class="descripcion">El "monstruo de agua", orgullo nacional y maestro de la regeneración.</p>
+                        <ul class="datos-tecnicos">
+                            <li><strong>🏠 Hábitat:</strong> Lagos (Xochimilco).</li>
+                            <li><strong>🐛 Alimentación:</strong> Insectos y pequeños peces.</li>
+                            <li><strong>💡 Dato Curioso:</strong> Puede regenerar sus extremidades y órganos vitales.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="pie">
+            <hr>
+            <p>Equipo 6: Yahir Ruiz Rocha, Leonardo Flores y Omar Olea</p>
+            <p>&copy; 2025 Sonrisa Salvaje - Proyecto Escolar</p>
+        </div>
+    </footer>
 </body>
 </html>
